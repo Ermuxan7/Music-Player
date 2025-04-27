@@ -20,7 +20,22 @@
 }
 
 body {
-  background: var(--background);
+  height: 100vh;
+  background: linear-gradient(45deg, #659999, #f4791f);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 14px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(67, 67, 70);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
